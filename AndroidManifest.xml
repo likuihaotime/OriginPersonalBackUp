@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.personalbackup.app"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/logo" android:label="@string/app_name">
+        <activity android:name="LoginPersonalBackUp"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterPersonalBackUp"
+                  android:label="@string/r_app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="FindPasswordPersonalBackUp"
+                  android:label="找回密码"/>
+        <activity android:name="AddInformationBackUp"
+                  android:label="添加记录"/>
+        <activity android:name="ViewInformationPersonalBackUp"
+                  android:label="记录列表"/>
+        <activity android:name="ViewBelievePersonalBackUp"
+                  android:label="详细记录"/>
+        <activity android:name="Mian_personalBackUp"
+                  android:label="备忘录主界面"/>
+                  
+    </application>
+</manifest>
